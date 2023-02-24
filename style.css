@@ -58,9 +58,10 @@
         list-style: none;
         display: flex;
         margin-right: 28px;
-        font-weight: 700px;
-        font-size: 16px;
-        line-height: 17px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
     }
     
     .nav__item {
@@ -71,12 +72,16 @@
         margin-right: 0;
     }
 
-    .nav__item:hover {
+    .nav__link-first {
         color: rgba(210, 49, 103, 0.9);
-        font-family: 'Fredoka One';
+        font-family: 'Roboto';
     }
     
-    .nav__link {}
+    .nav__link {
+        color: #150101;
+        opacity: 0.6;
+        font-family: 'Roboto';
+    }
     
     .btn {
         border: none;
@@ -227,19 +232,30 @@
 
     /*Секция - "Посмотреть детали"*/
 
-    .hero2 {
+    .views-details {
         font-family: 'Hind Madurai', sans-serif;
         background: #F8EDF0;
     }
 
-    .content__title2 {   
+    .details {
+        display: flex;
+        max-width: 100%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .details__desc {
+        width: 50%;
+    }
+
+    .details__title {   
         font-weight: 600;
         font-size: 44.2px;
         line-height: 49px;
         color: #150101;  
     }
     
-    .content__text2 {
+    .details__text {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -248,13 +264,17 @@
         padding-bottom: 35px;
     }
 
-    .btn2 {
+    .details__btn {
         border: none;
         background: #D23166;
         border-radius: 5px;
         padding: 15px 36px;
         color: aliceblue;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 16px;        
         line-height: 1.18;
+    }
+
+    .details__img-wrap {
+        text-shadow: black;
     }
