@@ -24,7 +24,7 @@
     }
     
     .container {
-        max-width: 1140px;
+        max-width: 1170px;
         margin: 0 auto;
     }
     
@@ -178,7 +178,7 @@
         bottom: -20px;
     }
     
-    /*Секция - "Доставка"*/
+    /*Секция - Доставка*/
 
     .delivery {
         font-family: 'Hind Madurai', sans-serif;
@@ -230,7 +230,7 @@
     color: rgba(0, 0, 0, 0.6);
     }
 
-    /*Секция - "Посмотреть детали"*/
+    /*Секция - Посмотреть детали*/
 
     .views-details {
         font-family: 'Hind Madurai', sans-serif;
@@ -275,6 +275,217 @@
         line-height: 1.18;
     }
 
-    .details__img-wrap {
-        text-shadow: black;
+    /*Секция - продукты*/
+
+    .products {
+        display: flex;
     }
+
+    .product__container {
+    }
+
+    .header__product {
+        text-align: center;
+        padding-bottom: 64px;
+        padding-top: 137px;
+    }
+
+    .product__text-header {
+        font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    }
+
+    .product__list {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .product__item {
+    }
+    
+    .product__link {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    }
+
+    .products__info {
+        display: flex;
+        align-items: center;
+    }
+
+    .product__img-wrap {
+    }
+
+    .product__img {
+        margin-right: 85px;
+        width: 580px;
+        height: 415px;
+    }
+
+    .product__desc {
+    }
+
+    .product__title {
+        font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    }
+
+    .product__text {       
+        padding-top: 11px;
+        padding-bottom: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+
+    .price {
+        display: flex;
+    }
+
+    .price__new {
+        font-family: 'Hind Madurai';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000;        
+    }
+
+    .price__old {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
+    }
+
+    .product__btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    }
+
+    /*Секция - отзывы*/
+
+    .feedback {
+        padding: 112px 0px 149px;
+    }
+
+    .feedback__container {
+        display: flex;
+    }
+
+    .feedback__column {
+        width: 50%;
+    }
+
+    .reviews {
+    }
+    
+    .review {
+    }
+
+    .user-info {    
+        display: flex;
+        align-items: center;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        width: 59px;
+        height: 59px;
+        overflow: hidden;
+    }
+
+    .avatar__img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain ;
+    }
+
+    .user-info__text {
+    }
+
+    .user-info__name {
+    }
+
+    .user-info__desc {
+    }
+    
+    .review__text {
+        max-width: 345px;
+        padding-left: 23px;
+    }
+
+    .review__text::before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: url(../img/icons/quots.svg) center/contain no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .review__text::after {
+        content: "";
+        display: inline; 
+        width: 10px;
+        height: 10px;
+        background: url(../img/icons/quots2.svg) center/contain no-repeat;
+        vertical-align: sub;
+    }
+
+    .spinner__avatars {
+    }
+
+    .avatars__ctrls {
+    }
+
+    .avatar__ctrl {
+    }
+
+    .avatars__ctrl-pic {
+    }
+
+    .avatars__ctrl-pic_rotate_left {
+    }
+
+    .avatars__list {
+    }
+
+    .avatars__item {
+    }
+
+    .avatars__img {
+    }
+
+    .feedback__decor {
+        width: 564px;
+        height: 442px;
+    }
+
+    
