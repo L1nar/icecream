@@ -582,6 +582,91 @@
         height: 442px;
     }
 
-    /*Секция - приложение/*
+    /*Секция - приложение*/
 
-    
+    .app {
+        background: #F8EDF0;
+    }
+
+    .app__icecream {
+        display: flex;
+    }
+
+    .app__img-wrap {
+        padding-top: 60px;
+    }
+
+    .app__img {
+        border-radius: 7%;
+    }
+
+    .app__desc {
+        padding-top: 100px;
+        padding-left: 135px;
+    }
+
+    .app__title {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 44.2px;
+line-height: 52px;
+color: #000000;
+padding-bottom: 20px;
+    }
+
+    .app__text {
+        max-width: 75%;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.01em;
+color: rgba(15, 1, 1, 0.7);
+padding-bottom: 30px;
+    }
+
+    .features {
+        flex-direction: column;
+        display: flex;  
+        padding-bottom: 30px;
+    }
+
+    .select-food {
+        padding-bottom: 20px;
+    }
+
+    .add-to-cart {
+        padding-bottom: 20px;
+    }
+
+    .order-food {
+        padding-bottom: 20px;
+    }
+
+    .feature__img {
+        background: #FFFFFF;
+    }
+
+    .feature__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    .download-app {
+        align-items: center;
+        display: flex;
+    }
+
+    .google-play {
+        padding-right: 20px;
+    }
+
+    .app-store {
+        padding-right: 0;
+    }
