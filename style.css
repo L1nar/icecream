@@ -670,3 +670,152 @@ padding-bottom: 30px;
     .app-store {
         padding-right: 0;
     }
+
+    /*Секция - задать вопрос*/
+
+    .answer-question {
+        padding: 190px 0px;
+    }
+
+    .questions {
+        display: flex;
+        justify-content: center;
+    }
+
+    .question__text {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+color: #000000;
+max-width: 40%;
+    }
+
+    .send {
+        margin: 0 auto;
+        width: 640px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        background: #FAFAFA;
+    border-radius: 5px;
+    justify-content: space-between;
+    }
+
+    .question__enter {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: rgba(15, 0, 0, 0.6);
+    }
+
+    .question__btn {
+        font-family: 'Roboto', sans-serif;
+        width: 134px;
+        height: 74px;
+        border-radius: 5%;
+    }
+
+    /*Секция - футер*/
+
+    .footer {
+        background-color: #0A0808;
+    }
+
+    .footer__container {
+        align-items: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .footer__contact {
+        margin-right: 40px;
+    }
+
+    .footer__logo {
+    }
+
+    .footer-logo__img {
+    }
+
+    .footer__desc {
+        max-width: 200px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+margin-top: 10px;
+    }
+
+    .footer__follow {
+    }
+
+    .footer__follow-text {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+padding-bottom: 8px;
+    }
+
+    .footer-follow__list {
+        display: flex;
+    }
+
+    .footer-follow__link {
+        margin-right: 10px;
+    }
+
+    .footer__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__menu-col {
+        justify-content: space-between;
+    }
+
+    .footer__menu-title {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-bottom: 9px;
+    }
+
+    .footer__menu-list {
+    }
+
+    .footer__menu-item {
+    }
+
+    .footer__menu-link {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: rgba(255, 255, 255, 0.8);
+margin-bottom: 10px;
+    }
+
+    .email {
+        border: 2px solid #D64374;
+    border-radius: 5px;
+    background-color: #000000;
+    width: 388px;
+    height: 55px;
+    }
